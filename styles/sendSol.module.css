@@ -1,0 +1,68 @@
+.parent{
+    box-sizing: border-box;
+    background-color: rgb(26, 29, 46);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    padding: 40px 30px;
+    border-radius: 7px;
+}
+
+.parent h2{
+    font-size: 20px;
+    margin: 0 0 14px 0;
+}
+
+.form input {
+    color: black;
+    background-color: white;
+    border: 0;
+    height: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 7px 0 14px 0;
+    border-radius: 10px;
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+  
+ .form input:focus {
+    background-color: white; /* Keep the background black when focused */
+    border-color: white; /* Optional: change border color to white when focused */
+    outline: 1px solid purple; 
+}
+  
+  .form input::after {
+    background-color: white; /* Keep the background black when focused */
+    border-color: white; /* Optional: change border color to white when focused */
+    outline: none; /* Optional: remove default outline for better appearance */
+  }
+
+  .form label{
+    font-size: 16px;
+  }
+
+  .btn{
+    margin: 10px 0 10px 0;
+    padding: 15px;
+    font-size: 14px;
+    border: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(81, 46, 168);
+    color: white;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    box-shadow: 1px 1px 7px black;
+  }
+
+  .message {
+    font-size: 14px;
+    max-width: 250px;
+  }
+  
+  
+  
+ 
+  
+ 

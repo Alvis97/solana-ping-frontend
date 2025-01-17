@@ -1,0 +1,35 @@
+.div1{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    width: 90vw;
+    margin: 0 5vw;
+}
+
+.walletInfo{
+    background-color: rgb(26, 29, 46);
+    color: white;
+    padding: 40px 30px;
+    border-radius: 7px;
+}  
+
+.walletInfo h2{
+    font-size: 20px;
+}
+
+.walletInfo p{
+    font-size: 16px;
+}
+
+.div2{
+    padding-left: 50px;
+}
+
+.div2 h2 {
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+.div2 p {
+    margin-top: 10px;
+}
